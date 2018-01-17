@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  border: 3px solid black;
+  padding: 0;
+}
+
+li {
+  width: 196px;
+  height: 196px;
+  background-color: gray;
+  border: 2px solid black;
+  font-size: 150px;
+  font-family: sans-serif;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
+.green {
+  background-color: green;
+}

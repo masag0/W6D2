@@ -1,0 +1,45 @@
+/* PHASE 10: Posts */
+.posts {
+
+}
+.img {
+  flex: left;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+
+}
+.post {
+  flex: right;
+  margin: 10px;
+}
+.posts h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.posts p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.posts nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts nav ul.left-nav {
+  display: flex;
+  flex: left;
+  font-size: 13px;
+}
+ul.left-nav li {
+  margin-right: 10px;
+  color: gray;
+}
+ul.right-nav li {
+  margin-left: 10px;
+}
+.posts nav ul.right-nav {
+  display: flex;
+  flex: right;
+}
